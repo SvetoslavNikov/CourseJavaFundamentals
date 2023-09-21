@@ -7,6 +7,8 @@ public class t2 {
         int height = Integer.parseInt(scan.nextLine());
         int with = Integer.parseInt(scan.nextLine());
         int nonPaintedPart = Integer.parseInt(scan.nextLine());
+
+        int ranodInt = 1;
         double area = Math.ceil(with * height - with * height * nonPaintedPart / 100);
         while (true) {
             String input = scan.nextLine();
