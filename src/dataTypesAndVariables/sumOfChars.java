@@ -16,9 +16,3 @@ public class sumOfChars {
         System.out.printf("The sum equals: %d", sum);
     }
 }
-//5
-//A
-//b
-//C
-//d
-//E
