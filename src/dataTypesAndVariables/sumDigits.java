@@ -1,5 +1,6 @@
 package dataTypesAndVariables;
 import java.util.Scanner;
+import java.lang.String;
 import java.lang.Math;
 public class sumDigits {
     public static void main (String [] args){
@@ -9,7 +10,7 @@ public class sumDigits {
         int length = n.length();
         int sum = 0;
         for(int i = 0; i<length ; i ++){
-            sum+=Integer.parseInt(String.valueOf(n.charAt(i)));
+            sum = sum + Integer.parseInt(String.valueOf(n.charAt(i)));
         }
         System.out.println(sum);
     }
