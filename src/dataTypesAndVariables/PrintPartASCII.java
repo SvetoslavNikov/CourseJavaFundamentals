@@ -8,7 +8,7 @@ public class PrintPartASCII {
         int end = Integer.parseInt(scan.nextLine());
         for (int i = start; i <= end; i++) {
             char a = (char) i;
-            System.out.println(a + " ");
+            System.out.print(a + " ");
         }
     }
     }
