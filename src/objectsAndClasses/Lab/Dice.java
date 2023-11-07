@@ -26,7 +26,7 @@ public class Dice {
 
     public int row() {
         Random r1 = new Random();
-        int randomSide = r1.nextInt(6);
+        int randomSide = r1.nextInt(getSides());
         return randomSide;
     }
 }

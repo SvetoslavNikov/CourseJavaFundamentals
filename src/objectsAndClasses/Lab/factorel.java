@@ -14,5 +14,6 @@ public class factorel {
             factorel = factorel.multiply(BigInteger.valueOf(i));
         }
         System.out.println("Factorial: " + factorel);
+
     }
 }
